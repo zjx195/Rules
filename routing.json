@@ -30,7 +30,37 @@
       "domain:generativelanguage.googleapis.com",
       "domain:perplexity.ai",
       "domain:copilot.microsoft.com",
-      "domain:githubcopilot.com"
+      "domain:githubcopilot.com",
+      "domain:claude.com",
+      "domain:clau.de",
+      "domain:claudemcpclient.com",
+      "domain:claudemcpcontent.com",
+      "domain:claudeusercontent.com",
+      "domain:servd-anthropic-website.b-cdn.net",
+      "domain:anthropic.com.cdn.cloudflare.net",
+      "domain:anthropic.auth0.com",
+      "domain:anthropic-com.ghost.io",
+      "domain:sentry.io",
+      "domain:statsigapi.net",
+      "domain:browser-intake-us5-datadoghq.com",
+      "domain:intercom.io",
+      "domain:intercomcdn.com",
+      "domain:cdn.usefathom.com",
+      "domain:maps.googleapis.com",
+      "domain:withpersona.com",
+      "domain:frompersona.com",
+      "keyword:datadog",
+      "keyword:sentry",
+      "keyword:sift"
+    ]
+  },
+  {
+    "remarks": "Claude IP 段 → US（来源 Net.Coffee，须核实实时归属）",
+    "enabled": true,
+    "outboundTag": "US",
+    "ip": [
+      "160.79.104.0/21",
+      "2607:6bc0::/32"
     ]
   },
   {
@@ -78,6 +108,47 @@
       "domain:discordapp.net",
       "domain:spotify.com",
       "domain:scdn.co"
+    ]
+  },
+  {
+    "remarks": "指定网站强制直连（用户自定义）",
+    "enabled": true,
+    "outboundTag": "direct",
+    "domain": [
+      "domain:alibabacloud.com",
+      "domain:api.ip.sb",
+      "domain:azureedge.net",
+      "domain:book118.com",
+      "domain:csnui.com",
+      "domain:doubao.com",
+      "domain:fliggy.com",
+      "domain:gov.cn",
+      "domain:hnsggzy.com",
+      "domain:jinkaodian.com",
+      "domain:lanzouo.com",
+      "domain:microsoft.com",
+      "domain:oracle.com",
+      "domain:qq.com",
+      "domain:taobao.com",
+      "domain:tencent.com",
+      "domain:weixin.qq.com",
+      "domain:zhaopin.com",
+      "domain:zhihu.com",
+      "domain:aliyun.com",
+      "domain:dnshe.com",
+      "domain:autodesk.com",
+      "domain:autodesk.net",
+      "domain:adsk.io",
+      "domain:akamaiedge.net",
+      "domain:edgekey.net",
+      "domain:dds.autodesk.com",
+      "domain:eplan.de",
+      "domain:eplanux.de",
+      "domain:update.eplan.de",
+      "domain:eplanp8.com",
+      "domain:hunanpea.com",
+      "domain:www.doc88.com",
+      "domain:doc88.com"
     ]
   },
   {
