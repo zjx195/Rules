@@ -1,0 +1,105 @@
+[
+  {
+    "remarks": "局域网 IP 直连",
+    "enabled": true,
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private"
+    ]
+  },
+  {
+    "remarks": "局域网域名直连",
+    "enabled": true,
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:private"
+    ]
+  },
+  {
+    "remarks": "AI → US 美国节点",
+    "enabled": true,
+    "outboundTag": "US",
+    "domain": [
+      "domain:openai.com",
+      "domain:chatgpt.com",
+      "domain:oaistatic.com",
+      "domain:oaiusercontent.com",
+      "domain:anthropic.com",
+      "domain:claude.ai",
+      "domain:gemini.google.com",
+      "domain:generativelanguage.googleapis.com",
+      "domain:perplexity.ai",
+      "domain:copilot.microsoft.com",
+      "domain:githubcopilot.com"
+    ]
+  },
+  {
+    "remarks": "视频 → JP 日本节点",
+    "enabled": true,
+    "outboundTag": "JP",
+    "domain": [
+      "domain:youtube.com",
+      "domain:youtu.be",
+      "domain:googlevideo.com",
+      "domain:ytimg.com",
+      "domain:youtubei.googleapis.com",
+      "domain:netflix.com",
+      "domain:nflxvideo.net",
+      "domain:nflximg.net",
+      "domain:nflxso.net",
+      "domain:disneyplus.com",
+      "domain:disney-plus.net",
+      "domain:dssott.com",
+      "domain:tiktok.com",
+      "domain:tiktokcdn.com",
+      "domain:byteoversea.com",
+      "domain:twitch.tv",
+      "domain:ttvnw.net"
+    ]
+  },
+  {
+    "remarks": "娱乐社交 → KR 韩国节点",
+    "enabled": true,
+    "outboundTag": "KR",
+    "domain": [
+      "domain:x.com",
+      "domain:twitter.com",
+      "domain:twimg.com",
+      "domain:instagram.com",
+      "domain:cdninstagram.com",
+      "domain:facebook.com",
+      "domain:fbcdn.net",
+      "domain:reddit.com",
+      "domain:redd.it",
+      "domain:redditmedia.com",
+      "domain:discord.com",
+      "domain:discord.gg",
+      "domain:discordapp.com",
+      "domain:discordapp.net",
+      "domain:spotify.com",
+      "domain:scdn.co"
+    ]
+  },
+  {
+    "remarks": "国内域名直连",
+    "enabled": true,
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:cn"
+    ]
+  },
+  {
+    "remarks": "国内 IP 直连",
+    "enabled": true,
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:cn"
+    ]
+  },
+  {
+    "remarks": "其余默认代理",
+    "enabled": true,
+    "outboundTag": "proxy",
+    "port": "0-65535"
+  }
+]
