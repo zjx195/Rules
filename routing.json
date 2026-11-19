@@ -112,7 +112,7 @@
     ]
   },
   {
-    "remarks": "指定网站强制直连（用户自定义）",
+    "remarks": "国内域名与指定网站直连",
     "enabled": true,
     "outboundTag": "direct",
     "domain": [
@@ -149,14 +149,7 @@
       "domain:eplanp8.com",
       "domain:hunanpea.com",
       "domain:www.doc88.com",
-      "domain:doc88.com"
-    ]
-  },
-  {
-    "remarks": "国内域名直连",
-    "enabled": true,
-    "outboundTag": "direct",
-    "domain": [
+      "domain:doc88.com",
       "geosite:cn"
     ]
   },
