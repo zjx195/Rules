@@ -1,22 +1,6 @@
 [
   {
-    "remarks": "局域网 IP 直连",
-    "enabled": true,
-    "outboundTag": "direct",
-    "ip": [
-      "geoip:private"
-    ]
-  },
-  {
-    "remarks": "局域网域名直连",
-    "enabled": true,
-    "outboundTag": "direct",
-    "domain": [
-      "geosite:private"
-    ]
-  },
-  {
-    "remarks": "AI → US 美国节点",
+    "remarks": "AI",
     "enabled": true,
     "outboundTag": "US",
     "domain": [
@@ -55,7 +39,7 @@
     ]
   },
   {
-    "remarks": "Claude IP 段 → US（来源 Net.Coffee，须核实实时归属）",
+    "remarks": "AI",
     "enabled": true,
     "outboundTag": "US",
     "ip": [
@@ -64,31 +48,7 @@
     ]
   },
   {
-    "remarks": "视频 → JP 日本节点",
-    "enabled": true,
-    "outboundTag": "JP",
-    "domain": [
-      "domain:youtube.com",
-      "domain:youtu.be",
-      "domain:googlevideo.com",
-      "domain:ytimg.com",
-      "domain:youtubei.googleapis.com",
-      "domain:netflix.com",
-      "domain:nflxvideo.net",
-      "domain:nflximg.net",
-      "domain:nflxso.net",
-      "domain:disneyplus.com",
-      "domain:disney-plus.net",
-      "domain:dssott.com",
-      "domain:tiktok.com",
-      "domain:tiktokcdn.com",
-      "domain:byteoversea.com",
-      "domain:twitch.tv",
-      "domain:ttvnw.net"
-    ]
-  },
-  {
-    "remarks": "娱乐社交 → KR 韩国节点",
+    "remarks": "Entertainment",
     "enabled": true,
     "outboundTag": "KR",
     "domain": [
@@ -112,10 +72,35 @@
     ]
   },
   {
-    "remarks": "国内域名与指定网站直连",
+    "remarks": "Other",
+    "enabled": true,
+    "outboundTag": "JP",
+    "domain": [
+      "domain:youtube.com",
+      "domain:youtu.be",
+      "domain:googlevideo.com",
+      "domain:ytimg.com",
+      "domain:youtubei.googleapis.com",
+      "domain:netflix.com",
+      "domain:nflxvideo.net",
+      "domain:nflximg.net",
+      "domain:nflxso.net",
+      "domain:disneyplus.com",
+      "domain:disney-plus.net",
+      "domain:dssott.com",
+      "domain:tiktok.com",
+      "domain:tiktokcdn.com",
+      "domain:byteoversea.com",
+      "domain:twitch.tv",
+      "domain:ttvnw.net"
+    ]
+  },
+  {
+    "remarks": "Direct",
     "enabled": true,
     "outboundTag": "direct",
     "domain": [
+      "geosite:private",
       "domain:alibabacloud.com",
       "domain:api.ip.sb",
       "domain:azureedge.net",
@@ -154,15 +139,16 @@
     ]
   },
   {
-    "remarks": "国内 IP 直连",
+    "remarks": "Direct",
     "enabled": true,
     "outboundTag": "direct",
     "ip": [
+      "geoip:private",
       "geoip:cn"
     ]
   },
   {
-    "remarks": "其余默认代理",
+    "remarks": "Default",
     "enabled": true,
     "outboundTag": "proxy",
     "port": "0-65535"
